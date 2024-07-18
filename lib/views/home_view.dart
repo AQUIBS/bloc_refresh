@@ -29,7 +29,7 @@ class _HomeViewState extends State<HomeView> {
     Timer.periodic(const Duration(milliseconds: 100), (timer) {
       if (timer.isActive) {
         cubits.pickRandomName();
-        if (timer.tick == 50) {
+        if (timer.tick == 30) {
           timer.cancel();
         }
       }
@@ -40,7 +40,12 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text("Bloc  Refresh"),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => automizer(),
+        child: const Icon(Icons.replay_outlined),
       ),
       body: Container(
         alignment: Alignment.center,
