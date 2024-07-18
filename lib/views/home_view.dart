@@ -41,7 +41,7 @@ class _HomeViewState extends State<HomeView> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Bloc  Refresh"),
+        title: const Text("Random Name Picker"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => automizer(),
@@ -54,14 +54,20 @@ class _HomeViewState extends State<HomeView> {
             builder: (context, snapshot) {
               if (snapshot.hasData) {
                 return Text(
-                  "${snapshot.data}",
+                  snapshot.data.toString(),
                   style: const TextStyle(
                       fontSize: 35,
                       fontWeight: FontWeight.w500,
                       color: Colors.grey),
                 );
               } else {
-                return Text("${snapshot.connectionState}");
+                return const Text(
+                  "Hit To Reload Button",
+                  style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.grey),
+                );
               }
             }),
       ),
