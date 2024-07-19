@@ -1,0 +1,52 @@
+[
+    {
+        "name": "ARJUN",
+        "age": 35,
+        "profession": "Project Manager"
+    },
+    {
+        "name": "KAVYA",
+        "age": 32,
+        "profession": "Product Manager"
+    },
+    {
+        "name": "VIJAY",
+        "age": 40,
+        "profession": "Operations Manager"
+    },
+    {
+        "name": "MEERA",
+        "age": 29,
+        "profession": "Marketing Manager"
+    },
+    {
+        "name": "SANJAY",
+        "age": 38,
+        "profession": "Sales Manager"
+    },
+    {
+        "name": "RITU",
+        "age": 33,
+        "profession": "HR Manager"
+    },
+    {
+        "name": "MOHAN",
+        "age": 41,
+        "profession": "Finance Manager"
+    },
+    {
+        "name": "PRIYANKA",
+        "age": 30,
+        "profession": "Business Development Manager"
+    },
+    {
+        "name": "GAURAV",
+        "age": 36,
+        "profession": "IT Manager"
+    },
+    {
+        "name": "SONALI",
+        "age": 28,
+        "profession": "Account Manager"
+    }
+]

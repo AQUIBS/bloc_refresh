@@ -1,0 +1,52 @@
+[
+    {
+        "name": "AQUIB",
+        "age": 26,
+        "profession": "flutter Developer"
+    },
+    {
+        "name": "PRIYA",
+        "age": 28,
+        "profession": "Frontend Developer"
+    },
+    {
+        "name": "RAHUL",
+        "age": 30,
+        "profession": "Full Stack Developer"
+    },
+    {
+        "name": "NEHA",
+        "age": 25,
+        "profession": "Mobile App Developer"
+    },
+    {
+        "name": "VIKAS",
+        "age": 27,
+        "profession": "Data Scientist"
+    },
+    {
+        "name": "SARA",
+        "age": 24,
+        "profession": "DevOps Engineer"
+    },
+    {
+        "name": "AMIT",
+        "age": 29,
+        "profession": "Software Engineer"
+    },
+    {
+        "name": "SNEHA",
+        "age": 26,
+        "profession": "Cloud Engineer"
+    },
+    {
+        "name": "RAJ",
+        "age": 31,
+        "profession": "Machine Learning Engineer"
+    },
+    {
+        "name": "DIVYA",
+        "age": 23,
+        "profession": "Cybersecurity Analyst"
+    }
+]
